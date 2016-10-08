@@ -5,11 +5,18 @@
 body{
 	margin:0 auto;
 	width: 940px;
-	font-size: 13px;
-	font-family: verdana;
+	font-size: 14px;
+	font-family: verdana, Geneva, sans-serif;
+	background-color: #F5F5F5;
+	color:#666666;
 }
-header, nav{
+header, nav, section, article, footer{
 	display: block;
+}
+header h1{
+	font-size: 35px;
+	line-height: 40px;
+	padding: 20px ;
 }
 article{
 	clear:both;
@@ -42,15 +49,47 @@ nav ul li a{
 }*/
 nav ul li a.selecionado{
 	color:#FFF;
-	background-color: #34ABE0;
+	background-color: #ed127f;	
+	padding: 0 58px; /* espaçamento estre os menus */
 	margin-left: 1px; /* Margem a esquerda */
 	height: 30px; /* Altura da TAG */
 	line-height: 30px; /* Altura da LINHA */
 	margin-top: 5px; /* uma pequena margem do título */
 	border-radius: 5px 5px 5px 5px;
 }
+section#intro{
+	height: 240px;
+	width: 940px;
+	background: url('outrubro_rosa.png') right top no-repeat #EBE9E9;
+	margin-top: 60px;
+	padding-left: 10px;
+}
+
 nav ul li a.selecionado:hover{
 	color:#FFF;
 	margin-top: 2px; /* uma pequena margem do título */
-	background-color: #0080B8;
+	background-color: #BC005E;
 }
+
+/*
+section{
+	clear: both;
+	margin-top: 70px;
+}
+section hgroup{
+	float: left;
+	padding: 0 15px 0 0;
+}
+section hgroup h1{
+	float: left;
+	padding: 0 15px 0 0;
+}
+section hgroup h2{
+	float: left;
+	padding: 0 15px 0 0;
+}
+section p{
+	clear:both;
+	margin:1000px 0 0 0;
+	text-align: justify;
+} */
