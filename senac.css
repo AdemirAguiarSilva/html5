@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0 auto;
+}
+header#principal{
+	width: 1000px;
+	height: 250px;
+	background-color: #ECEAEA;
+}
+header section#topo{
+	width: 1000px;
+	height: 30px;
+	background-color: #004B97;
+}
+header section#menu{
+	width: 1000px;
+	height: 30px;
+	background-color: #002753;	
+}
+aside#logo{
+	float: left;
+	width: 236px;
+	height: 120px;
+	background-color: #999;
+}
+aside#cursos{		
+	float: right;
+	width: 746px;
+	height: 120px;
+	background-color: #888;
+}
+section#todo{
+	width: 1000px;
+	height: 1155px;
+	background-color: #FF0000;
+}
+section aside#navegacao{
+	float: left;
+	width: 237px;
+	height: 1005px;
+	background-color: #5400FF;
+}
+section section#conteudo{
+	float: right;
+	width: 746px;
+	height: 1005px;
+	background-color: #E3DB04;
+}
+footer#eventos{
+	clear: both;
+	width: 1000px;
+	height: 141px;
+	background-color: #3D53D9;
+}
