@@ -117,4 +117,6 @@ aside section ul li a{
 }
 aside section ul li a:hover{
 	text-decoration: underline;	
+	color: #BF0461;
+	font-weight: bold;
 }
